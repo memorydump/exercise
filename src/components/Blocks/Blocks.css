@@ -1,0 +1,27 @@
+.Blocks {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  top: 120px;
+  position: relative;
+}
+
+.Block {
+  margin: 20px;
+  padding: 10px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.Block.expanded {
+}
+
+.Block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Block li span {
+  font-weight: bold;
+}
